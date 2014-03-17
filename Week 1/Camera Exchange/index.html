@@ -3,43 +3,72 @@
 <html>
 <head><!-- Start Of Header -->
     <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="description" content="A quality place for you to exchange used camera equipment with other photographers"/>
     <title>The Camera Exchange</title><!-- Page title -->
     <link href="css/normalize.css" type="text/css" rel="stylesheet" />
+    <link rel="stylesheet" href="css/foundation.css" />
     <link href="css/styles.css" type="text/css" rel="stylesheet" />
+    <script src="js/vendor/modernizr.js"></script>
     <!--[if lt IE 9]><script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]--> <!-- IE Compatibility Mode -->
 </head><!-- End Of Header -->
 <body>
 <header>
-<img src="img/logo.png" alt="Camera Exchange Logo"/>
-<p>Buy, Trade or Rent your camera gear through Camera Exchange</p>
-</header>
-<ul>
-    <!--User login and Regristration will be in Modals on this page-->
-    <li><a href="search.html">Search</a></li>
-    <li><a href="results.html">Results</a></li>
-    <li><a href="detail.html">Results</a></li>
-    <li><a href="saved.html">Results</a></li>
-</ul>
-<section>
-    <ul>
-        <li>Search or Browse available gear in your area and setup a no fee transaction today.</li>
-        <li>Place your extra gear as available and earn some extra cash.</li>
-        <li>Get 3rd party insurance quotes to cover expensive items.</li>
-    </ul>
-    <h2>Login</h2>
-    <div>
-        <form>
-        <label for="username">Username:</label>
-        <input type="text" name="username" id="username" required="true">
-        <label for="password">Password</label>
-        <input type="password" name="password" id="password" required="true">
-        <input type="submit" value="Login">
-        </form>
-        <a href="http://answers.yahoo.com/question/index?qid=20121108150204AAWjqdR">Forgot Your Password?</a>
+    <div class="row">
+        <div class="small-3 columns"> <img id="logo" src="img/logo.png" alt="Camera Exchange Logo"/></div>
+        <div class="small-6 columns"> <h4>Buy, Trade or Rent your camera gear through Camera Exchange.</h4></div>
+        <div class="small-3 columns">
+            <a href="#" class="button radius rounded">Sign-Up</a>
+            <a href="#" class="button radius rounded">Login</a>
+        </div>
     </div>
-</section>
+</header>
 
+<div class="row">
+    <section class="small-8 push-3 columns">
+        <ul>
+            <li>Search or Browse available gear in your area and setup a no fee transaction today.</li>
+            <li>Place your extra gear as available and earn some extra cash.</li>
+            <li>Get 3rd party insurance quotes to cover expensive items.</li>
+        </ul>
+        <div class="row">
+            <div class="small-10 push-1 columns">
+        <h2 class="pushdown">Login</h2>
+        <div class="forumbackground">
+            <form>
+            <label for="username">Username:</label>
+            <input type="text" name="username" id="username" required="true">
+            <label for="password">Password</label>
+            <input type="password" name="password" id="password" required="true">
+            <input type="submit" value="Login">
+            </form>
+            <a href="http://answers.yahoo.com/question/index?qid=20121108150204AAWjqdR">Forgot Your Password?</a>
+        </div>
+        </div>
+        </div>
+    </section>
+    <aside class="small-3 pull-9 columns">
+        <div>
+            <p>"Your trusted source for finding the photography gear you need, when and where you need it."</p>
+            <p class="pullup">-Daniel Carroll, Founder</p>
+        </div>
+        <div>
+            <h3>Membership Benefits</h3>
+        </div>
+        <div>
+            <h3>How It Works</h3>
+        </div>
+        <div>
+            <h3>FAQ</h3>
+        </div>
+        <div>
+            <h3>Contact Us</h3>
+        </div>
+    </aside>
+</div>
+
+<script src="/js/vendor/jquery.js"></script>
+<script src="/js/vendor/fastclick.js"></script>
 </body>
 
 

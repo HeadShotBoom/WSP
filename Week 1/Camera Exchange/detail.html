@@ -3,47 +3,85 @@
 <html>
 <head><!-- Start Of Header -->
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Camera Exchange, Item Details</title><!-- Page title -->
     <link href="css/normalize.css" type="text/css" rel="stylesheet" />
+    <link rel="stylesheet" href="css/foundation.css" />
     <link href="css/styles.css" type="text/css" rel="stylesheet" />
+    <script src="/js/vendor/modernizr.js"></script>
     <!--[if lt IE 9]><script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]--> <!-- IE Compatibility Mode -->
 </head><!-- End Of Header -->
 <body>
 <header>
-    <img src="img/logo.png" alt="Camera Exchange Logo"/>
-    <p>Buy, Trade or Rent your camera gear through camera exchange</p>
+    <div class="row">
+        <div class="small-3 columns"> <img id="logo" src="img/logo.png" alt="Camera Exchange Logo"/></div>
+        <div class="small-7 columns"> <h4>Buy, Trade or Rent your camera gear through Camera Exchange.</h4></div>
+        <div class="small-2  columns">
+            <a href="#" class="button radius rounded" id="logout-pull">Logout</a>
+        </div>
+    </div>
 </header>
-<ul>
-    <li><a href="index.html">Home</a></li>
-    <li><a href="search.html">Search</a></li>
-    <li><a href="results.html">Results</a></li>
-    <li><a href="saved.html">Saved Items</a></li>
-</ul>
-
-<img src="img/resultscamera.png" alt="results camera"/>
-<h2>Canon 5D mkIII</h2>
-<p>Available for: Purchase, Rent, or Trade</p>
-
-<h4>The Canon EOS 5D Mark III Camera is a Full-frame 22.3MP DSLR featuring exceptional image and movie capabilities.</h4>
-
-<ul>
-    <li>22.3 MP Full-Frame CMOS Sensor</li>
-    <li>3.2” Clear View High Resolution LCD</li>
-    <li>DIGIC 5+ Image Processor</li>
-    <li>61-Point High Density AF</li>
-    <li>Full HD 1080/30p and 720/60p Format</li>
-</ul>
-
-<p>Customer Reviews of this Owner:</p>
-<img src="img/star.png" alt="star"/>
-<img src="img/star.png" alt="star"/>
-<img src="img/star.png" alt="star"/>
-<img src="img/star.png" alt="star"/>
-<img src="img/star.png" alt="star"/>
-
-<p>Distance from your Location: 2.1 Miles</p>
+<div class="contain-to-grid sticky" data-options="sticky_on: large">
+    <nav class="top-bar" data-topbar>
+        <ul class="title-area">
+            <li class="name">
+                <h1><a href="index.html">Home</a></h1>
+            </li>
+            <li class="toggle-topbar menu-icon"><a href="#">Menu</a></li>
+        </ul>
+        <section class="top-bar-section">
+            <ul class="right">
+                <li class="active"><a href="#">Search</a></li>
+                <li class="has-dropdown">
+                    <a href="#">Navigation</a>
+                    <ul class="dropdown">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="search.html">Item Search</a></li>
+                        <li><a href="saved.html">Saved Items</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </section>
+    </nav>
+</div>
+<div class="row add70">
 
 
+<div class="small-9 push-3 columns">
+    <div class="row">
+    <img class="small-2 columns" src="img/resultscamera.png" alt="results camera"/>
+
+    <h2 class="small-10 columns">Canon 5D mkIII</h2>
+    <p>Available for: Purchase, Rent, or Trade</p>
+    </div>
+    <h4>The Canon EOS 5D Mark III Camera is a Full-frame 22.3MP DSLR featuring exceptional image and movie capabilities.</h4>
+
+    <ul>
+        <li>22.3 MP Full-Frame CMOS Sensor</li>
+        <li>3.2” Clear View High Resolution LCD</li>
+        <li>DIGIC 5+ Image Processor</li>
+        <li>61-Point High Density AF</li>
+        <li>Full HD 1080/30p and 720/60p Format</li>
+    </ul>
+<div class="row">
+    <p class="small-6 columns">Customer Reviews of this Owner:</p>
+    <div class="small-6 pull-2 columns">
+    <img src="img/star.png" alt="star"/>
+    <img src="img/star.png" alt="star"/>
+    <img src="img/star.png" alt="star"/>
+    <img src="img/star.png" alt="star"/>
+    <img src="img/star.png" alt="star"/>
+        </div>
+</div>
+    <p>Distance from your Location: 2.1 Miles</p>
+    </div>
+
+    <aside class="small-3 pull-9 columns">
+        <div><h3>My Account</h3></div>
+        <div><img class="lefticon" src="img/mail.png"/><h3>Inbox</h3></div>
+        <div><img class="lefticon" src="img/cart.png"/><h3>Pending Transactions</h3></div>
+    </aside>
+</div>
 </body>
 
 

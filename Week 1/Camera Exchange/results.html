@@ -3,39 +3,91 @@
 <html>
 <head><!-- Start Of Header -->
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Camera Exchange, Search Results</title><!-- Page title -->
     <link href="css/normalize.css" type="text/css" rel="stylesheet" />
+    <link rel="stylesheet" href="css/foundation.css" />
     <link href="css/styles.css" type="text/css" rel="stylesheet" />
+    <script src="/js/vendor/modernizr.js"></script>
     <!--[if lt IE 9]><script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]--> <!-- IE Compatibility Mode -->
 </head><!-- End Of Header -->
 <body>
 <header>
-    <img src="img/logo.png" alt="Camera Exchange Logo"/>
-    <p>Buy, Trade or Rent your camera gear through camera exchange</p>
+    <div class="row">
+        <div class="small-3 columns"> <img id="logo" src="img/logo.png" alt="Camera Exchange Logo"/></div>
+        <div class="small-7 columns"> <h4>Buy, Trade or Rent your camera gear through Camera Exchange.</h4></div>
+        <div class="small-2  columns">
+            <a href="#" class="button radius rounded" id="logout-pull">Logout</a>
+        </div>
+    </div>
 </header>
-<ul>
-    <li><a href="index.html">Home</a></li>
-    <li><a href="search.html">Search</a></li>
-    <li><a href="detail.html">Results</a></li>
-    <li><a href="saved.html">Saved Items</a></li>
-</ul>
-<h3>Showing results for “Canon Camera” with “DSLR”, “Canon”, and “Rent” Filters applied.</h3>
-<div>
+<div class="contain-to-grid sticky" data-options="sticky_on: large">
+    <nav class="top-bar" data-topbar>
+        <ul class="title-area">
+            <li class="name">
+                <h1><a href="index.html">Home</a></h1>
+            </li>
+            <li class="toggle-topbar menu-icon"><a href="#">Menu</a></li>
+        </ul>
+        <section class="top-bar-section">
+            <ul class="right">
+                <li class="active"><a href="#">Search</a></li>
+                <li class="has-dropdown">
+                    <a href="#">Navigation</a>
+                    <ul class="dropdown">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="search.html">Item Search</a></li>
+                        <li><a href="saved.html">Saved Items</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </section>
+    </nav>
+</div>
+
+<div class="row">
+    <div class="small-9 push-3 columns">
+<h5 class="babyblue">Showing results for “Canon Camera” with “DSLR”, “Canon”, and “Rent” Filters applied.</h5>
+<div class="row">
+        <div class="small-12 columns">
     <img src="img/buy.png" alt="buy key"/>
     <img src="img/rent.png" alt="rent key"/>
     <img src="img/trade.png" alt="trade key"/>
 </div>
-<div>
-    <img src="img/resultscamera.png" alt="results camera"/>
-    <p>Canon 5D mkIII</p>
-    <img src="img/buysymbol.png" alt="buy symbol"/>
-    <img src="img/rentsymbol.png" alt="rent symbol"/>
-    <img src="img/tradesymbol.png" alt="trade symbol"/>
-    <p>2.1 Miles</p>
 </div>
+        <div class="add70">
+        <div class="row outline">
+    <div class="small-2 columns">
+    <img src="img/resultscamera.png" alt="results camera"/>
+        </div>
+            <div class="small-4 columns">
+    <h4>Canon 5D mkIII</h4>
+                </div>
+            <div class="small-2 push-1 columns">
+    <img src="img/buysymbol.png" alt="buy symbol"/>
+                </div>
+            <div class="small-2 columns">
+    <img src="img/rentsymbol.png" alt="rent symbol"/>
+                </div>
+            <div class="small-2 pull-1 columns bumpright10">
+    <img src="img/tradesymbol.png" alt="trade symbol"/>
+                </div>
+            <div class="small-2 push-1 columns">
+    <h4 class="makeitfit pullup20">2.1</h4>
+                <h4 class="makeitfit">miles</h4>
+                </div>
+
+        </div>
+    </div>
+    </div>
 
 
-
+    <aside class="small-3 pull-9 columns">
+        <div><h3>My Account</h3></div>
+        <div><img class="lefticon" src="img/mail.png"/><h3>Inbox</h3></div>
+        <div><img class="lefticon" src="img/cart.png"/><h3>Pending Transactions</h3></div>
+    </aside>
+</div>
 
 
 </body>
