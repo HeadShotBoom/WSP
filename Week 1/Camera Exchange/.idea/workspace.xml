@@ -26,7 +26,7 @@
       <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="30" selection-start="779" selection-end="779" vertical-scroll-proportion="0.27503526" vertical-offset="0" max-vertical-offset="1470">
+            <state line="11" column="54" selection-start="643" selection-end="643" vertical-scroll-proportion="0.23272215" vertical-offset="0" max-vertical-offset="1470">
               <folding />
             </state>
           </provider>
@@ -44,7 +44,7 @@
       <file leaf-file-name="results.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/results.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="30" selection-start="386" selection-end="386" vertical-scroll-proportion="-5.625" vertical-offset="0" max-vertical-offset="1545">
+            <state line="9" column="30" selection-start="386" selection-end="386" vertical-scroll-proportion="0.0" vertical-offset="135" max-vertical-offset="1545">
               <folding />
             </state>
           </provider>
@@ -53,7 +53,7 @@
       <file leaf-file-name="detail.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/detail.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="41" selection-start="200" selection-end="200" vertical-scroll-proportion="-3.75" vertical-offset="0" max-vertical-offset="1515">
+            <state line="6" column="41" selection-start="200" selection-end="200" vertical-scroll-proportion="0.0" vertical-offset="90" max-vertical-offset="1515">
               <folding />
             </state>
           </provider>
@@ -62,7 +62,7 @@
       <file leaf-file-name="saved.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/saved.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="18" column="29" selection-start="979" selection-end="979" vertical-scroll-proportion="-11.25" vertical-offset="0" max-vertical-offset="1410">
+            <state line="18" column="29" selection-start="979" selection-end="979" vertical-scroll-proportion="0.0" vertical-offset="270" max-vertical-offset="1410">
               <folding />
             </state>
           </provider>
@@ -138,7 +138,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -187,6 +186,7 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -199,6 +199,14 @@
     <property name="FullScreen" value="false" />
   </component>
   <component name="RunManager">
+    <configuration default="true" type="DartUnitRunConfigurationType" factoryName="DartUnit">
+      <option name="VMOptions" />
+      <option name="arguments" />
+      <option name="filePath" />
+      <option name="scope" value="ALL" />
+      <option name="testName" />
+      <method />
+    </configuration>
     <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
       <option name="VMOptions" />
       <option name="arguments" />
@@ -209,23 +217,15 @@
       <option name="showConsoleOnStdOut" value="false" />
       <method />
     </configuration>
-    <configuration default="true" type="DartUnitRunConfigurationType" factoryName="DartUnit">
-      <option name="VMOptions" />
-      <option name="arguments" />
-      <option name="filePath" />
-      <option name="scope" value="ALL" />
-      <option name="testName" />
-      <method />
-    </configuration>
-    <configuration default="true" type="JavaScriptTestRunnerKarma" factoryName="Karma" singleton="true" config-file="">
-      <envs />
-      <method />
-    </configuration>
     <configuration default="true" type="JSTestDriver:ConfigurationType" factoryName="JsTestDriver">
       <setting name="configLocationType" value="CONFIG_FILE" />
       <setting name="settingsFile" value="" />
       <setting name="serverType" value="INTERNAL" />
       <setting name="preferredDebugBrowser" value="CHROME" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerKarma" factoryName="Karma" singleton="true" config-file="">
+      <envs />
       <method />
     </configuration>
     <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug" singleton="true">
@@ -595,21 +595,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/saved.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="29" selection-start="979" selection-end="979" vertical-scroll-proportion="-11.25" vertical-offset="0" max-vertical-offset="1410">
+        <state line="18" column="29" selection-start="979" selection-end="979" vertical-scroll-proportion="0.0" vertical-offset="270" max-vertical-offset="1410">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/detail.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="41" selection-start="200" selection-end="200" vertical-scroll-proportion="-3.75" vertical-offset="0" max-vertical-offset="1515">
+        <state line="6" column="41" selection-start="200" selection-end="200" vertical-scroll-proportion="0.0" vertical-offset="90" max-vertical-offset="1515">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/results.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="30" selection-start="386" selection-end="386" vertical-scroll-proportion="-5.625" vertical-offset="0" max-vertical-offset="1545">
+        <state line="9" column="30" selection-start="386" selection-end="386" vertical-scroll-proportion="0.0" vertical-offset="135" max-vertical-offset="1545">
           <folding />
         </state>
       </provider>
@@ -623,7 +623,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="30" selection-start="779" selection-end="779" vertical-scroll-proportion="0.27503526" vertical-offset="0" max-vertical-offset="1470">
+        <state line="11" column="54" selection-start="643" selection-end="643" vertical-scroll-proportion="0.23272215" vertical-offset="0" max-vertical-offset="1470">
           <folding />
         </state>
       </provider>
