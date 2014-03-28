@@ -1,0 +1,53 @@
+
+/*These are my base variables to be used throughout when needed */
+$myColor: #f00;
+$basepadding: 10px;
+$basethickness: 4px;
+$myString: " to beautiful ladies";
+$color: green;
+
+/* Import CSS from shake extension */
+@import "../css/csshake.min.css";
+
+/* Modifying ID=mypara with variables from above*/
+#mypara {
+  color: $myColor;
+  border: $basethickness solid $myColor;
+  padding: $basepadding;
+}
+
+/* Using a mixin to set defaults or pass through custom styles */
+@mixin customBorder1 ($width: 1px, $color: black, $style: solid) {
+  border: {
+    width: $width;
+    color: $color;
+    style: $style;
+  }
+}
+/* Adds boarder to entire page using predefined defaults */
+#pagecontent {
+  @include customBorder1;
+}
+/* Adds border using custom styles */
+#thisiscool {
+  @include customBorder1(3px, blue, dotted);
+}
+/* Adds the myString variable, defined abobe after the indicated ID*/
+#mypara:after {
+  content: $myString;
+}
+/* Uses the defined color for text and adds a grayscale version of the colors inverse as background*/
+h1 {
+  color: $color;
+  background-color: grayscale(invert($color));
+}
+/* Lightens the color variable by 20% and applies this to h2 element, following examples continue along this fashion*/
+h2 {
+  color: lighten($color, 20%);
+}
+h3 {
+  color: lighten($color, 30%);
+}
+h4 {
+  color: lighten($color, 40%);
+}

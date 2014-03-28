@@ -1,0 +1,48 @@
+@import url(../css/csshake.min.css);
+/*These are my base variables to be used throughout when needed */
+/* Import CSS from shake extension */
+/* Modifying ID=mypara with variables from above*/
+#mypara {
+  color: red;
+  border: 4px solid red;
+  padding: 10px;
+}
+
+/* Using a mixin to set defaults or pass through custom styles */
+/* Adds boarder to entire page using predefined defaults */
+#pagecontent {
+  border-width: 1px;
+  border-color: black;
+  border-style: solid;
+}
+
+/* Adds border using custom styles */
+#thisiscool {
+  border-width: 3px;
+  border-color: blue;
+  border-style: dotted;
+}
+
+/* Adds the myString variable, defined abobe after the indicated ID*/
+#mypara:after {
+  content: " to beautiful ladies";
+}
+
+/* Uses the defined color for text and adds a grayscale version of the colors inverse as background*/
+h1 {
+  color: green;
+  background-color: #bfbfbf;
+}
+
+/* Lightens the color variable by 20% and applies this to h2 element, following examples continue along this fashion*/
+h2 {
+  color: #00e600;
+}
+
+h3 {
+  color: #1aff1a;
+}
+
+h4 {
+  color: #4dff4d;
+}

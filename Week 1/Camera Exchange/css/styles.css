@@ -26,6 +26,9 @@ header div.small-7 h4 {
 header div.small-4 a, header div.small-2 a  {
     margin-top: 25px;
 }
+#logout-pull{
+    margin-top:15px;
+}
 aside div {
     background-color: #396a92;
     padding:3%;
@@ -70,18 +73,20 @@ img.lefticon {
 .outline {
     border:2px solid #000000;
     padding:2%;
+    background-color: #fffaf0;
 }
-.bumpright10{
-    margin-left:20px;
-    margin-right:-20px;
+.downsome {
+    margin-top:15px;
 }
-.makeitfit {
-    margin-right:0;
-    margin-left:-10px;
-    padding:0;
-    margin-top:-20px;
+.leftline{
+    border-left:1px solid #000000;
 }
-.pullup20{
-    margin-top:-50px;
+.pushdown{
+    margin-top:20px;
 }
-
+@media (min-width: 1250px){
+    body{
+        width:1200px;
+        margin:10px auto;
+    }
+}
